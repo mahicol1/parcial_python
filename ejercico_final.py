@@ -32,13 +32,13 @@ def ejecutar_operacion(operacion, tiempo_limite):
 min_tiempo = 5  # Tiempo mínimo en segundos
 max_tiempo = 15  # Tiempo máximo en segundos
 
-# Realiza las operaciones en el orden deseado con tiempos aleatorios
+
 ejecutar_operacion("resta", random.uniform(min_tiempo, max_tiempo))
 ejecutar_operacion("suma", random.uniform(min_tiempo, max_tiempo))
 ejecutar_operacion("division", random.uniform(min_tiempo, max_tiempo))
 ejecutar_operacion("multiplicacion", random.uniform(min_tiempo, max_tiempo))
 
-# Operaciones adicionales
+# Operaciones 
 ejecutar_operacion("division", random.uniform(min_tiempo, max_tiempo))
 ejecutar_operacion("suma", random.uniform(min_tiempo, max_tiempo))
 ejecutar_operacion("resta", random.uniform(min_tiempo, max_tiempo))
